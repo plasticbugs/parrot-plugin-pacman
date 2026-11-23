@@ -61,5 +61,5 @@ cvsd_use(pacman)
 cvpad_use(pacman)                           # USB game pads: the port is a host
 pico_enable_stdio_usb(pacman 0)
 pico_enable_stdio_uart(pacman 0)
-cvcart_plugin(pacman ID parrotcart.pacman NAME "Pac-Man" VERSION 0.1.5 BY "Parrot Cart"
+cvcart_plugin(pacman ID parrotcart.pacman NAME "Pac-Man" VERSION 0.1.6 BY "Parrot Cart"
               HOME /PACMAN USES usb-host ICON src/pacman/pacman_icon.txt FILE PACMAN.CVP README CART-README.md)
